@@ -4,21 +4,6 @@
 Automated OCR tool for **Boss Guild** and **Castle** reports in Seven Knights.  
 It reads screenshots, extracts scores, builds Excel reports, generates graph analysis, and tracks **damage growth** over time for each member.
 
-## 🖼 Example Results
-
-### 📸 Input Screenshot (Boss Guild) & (Castle)
-![Boss Input](images/BossGuild.png)
-![Castle Input](images/Castle.png)
-
-### 📊 Excel Report Output
-![Excel Output](images/Boss_Guild_Summary.png)
-![Excel Output](images/Castle_Growth.png)
-
-### 📈 Growth Graph Output
-![Graph Output](images/Contribution_By_Player_Karma.png)
-![Graph Output](images/Contribution_total_ranking.png)
-![Graph Output](images/total_dmg_per_boss_per_player.png)
-
 ## 👤 Credits
 
 Developed by: **[SusiShushii]**  
@@ -59,6 +44,23 @@ This project is **not affiliated with Netmarble**.
   - `Install_Python.bat` – Install Python 3.12
   - `Install_Packages.bat` – Create (Optional)`.venv` and install required packages
   - `run.bat` – Run the main menu
+
+---
+
+## 🖼 Example Results
+
+### 📸 Input Screenshot (Boss Guild) & (Castle)
+<img src="images/BossGuild.png" width="45%">
+<img src="images/Castle.png" width="45%">
+
+### 📊 Excel Report Output
+<img src="images/Boss_Guild_Summary.png" width="80%">
+<img src="images/Castle_Growth.png" width="80%">
+
+### 📈 Growth Graph Output
+<img src="images/Contribution_By_Player_Karma.png" width="60%">
+<img src="images/Contribution_total_ranking.png" width="60%">
+<img src="images/total_dmg_per_boss_per_player.png" width="60%">
 
 ---
 ```text

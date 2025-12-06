@@ -47,13 +47,13 @@ This project is **not affiliated with Netmarble**.
 
 ---
 ```text
-## 🧰 Step 1 – Clone the Repository
+🧰 Step 1 – Clone the Repository
 
 
 git clone https://github.com/yourname/yourrepo.git
 cd yourrepo   # e.g. cd OCR
 
-## 🐍 Step 2 – Install Python (Only If You Don't Have Python)
+🐍 Step 2 – Install Python (Only If You Don't Have Python)
 
 - Check your installed Python version:
 - `python --version`
@@ -63,7 +63,7 @@ cd yourrepo   # e.g. cd OCR
 - If not, install using:
     - `Install_Python.bat`
 
-## 📦 Step 3 – Install Required Packages
+📦 Step 3 – Install Required Packages
 
 Run:
 
@@ -75,12 +75,12 @@ If successful, you will see:
 
 [SUCCESS] All packages installed successfully.
 
-## 🛠 4. Install VC++ Redistributable (Optional)
+🛠 4. Install VC++ Redistributable (Optional)
 Only required on some systems:
 
 https://aka.ms/vs/17/release/vc_redist.x64.exe
 
-## ⚙️ Step 5 – Configure Your Guild (config.json)
+⚙️ Step 5 – Configure Your Guild (config.json)
 
 Main configuration file used by the OCR system (Example Configuration for English Language in `example_en_config.json`):
 
@@ -104,14 +104,14 @@ Main configuration file used by the OCR system (Example Configuration for Englis
   ]
 }
 
-## 🔹 Field Descriptions
+🔹 Field Descriptions
 **Key	Description:**
   - GUILD_NAME	Your guild name as shown in-game
   - NON_NAME_KEYWORDS	Words that are not player names
   - GUILD_EXTRA_KEYWORDS	Extra noisy text attached to player names
   - TIME_WORDS	Words related to boss attempt counting
 
-## 🗂 Step 6 – Folder Structure (IMPORTANT)
+🗂 Step 6 – Folder Structure (IMPORTANT)
 
 Your project MUST follow this structure:
 
@@ -175,7 +175,7 @@ Boss Growth Report	output/boss_guild/growth/
 Castle Growth Report	output/castle/growth/
 Graph Images	output/*_graphs/
 
-## ▶️ Step 7 – Run the Program
+▶️ Step 7 – Run the Program
 run.bat
 
 You will see:
@@ -183,10 +183,22 @@ You will see:
 ============================================
         Guild OCR Tool – Main Menu
 ============================================
-1) Boss Guild OCR
-2) Castle OCR
-3) Boss Guild Growth Report
-4) Castle Growth Report
+1) Boss Guild OCR  
+   (Generates Excel reports from folders/boss_guild/<boss_name>/  
+   → output/boss_guild/excel and boss_guild_graphs)
+2) Castle OCR  
+   (Generates Excel reports from folders/castles/<castle_name>/  
+   → output/castle/excel and castle_graphs)
+3) Boss Guild Growth Report  
+   (Generates Excel growth reports from existing JSON data in  
+   output/boss_guild/json → output/boss_guild/growth.  
+   The system automatically compares data by date, determines which record is earlier and later,  
+   and calculates the damage growth rate or decrease for each member.)
+4) Castle Growth Report  
+   (Generates Excel growth reports from existing JSON data in  
+   output/castle/json → output/castle/growth.  
+   The system automatically compares data by date, determines which record is earlier and later,  
+   and calculates the growth or decrease rate for each member.)
 0) Exit
 ============================================
 

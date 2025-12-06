@@ -114,7 +114,7 @@ Main configuration file used by the OCR system (Example Configuration for Englis
 ## 🗂 Step 6 – Folder Structure (IMPORTANT)
 
 Your project MUST follow this structure:
-
+```text
 OCR/
 ├─ app/
 │  ├─ __init__.py
@@ -151,16 +151,14 @@ OCR/
 │  ├─ boss_guild_graphs/
 │  └─ castle_graphs/
 │
-│
 ├─ config.json
 ├─ example_en_config.json
-├─ build_exe.bat (For building .exe file) 
+├─ build_exe.bat           # For building .exe file
 ├─ main.py
 ├─ requirements.txt
 ├─ run.bat
 ├─ Install_Python.bat
-├─ Install_Packages.bat
-
+└─ Install_Packages.bat
 
 ✅ Output/ will be auto-created if missing
 -> Put your screenshots into:

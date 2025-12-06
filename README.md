@@ -4,6 +4,21 @@
 Automated OCR tool for **Boss Guild** and **Castle** reports in Seven Knights.  
 It reads screenshots, extracts scores, builds Excel reports, generates graph analysis, and tracks **damage growth** over time for each member.
 
+## 🖼 Example Results
+
+### 📸 Input Screenshot (Boss Guild) & (Castle)
+![Boss Input](images/BossGuild.png)
+![Castle Input](images/Castle.png)
+
+### 📊 Excel Report Output
+![Excel Output](images/Boss_Guild_Summary.png)
+![Excel Output](images/Castle_Growth.png)
+
+### 📈 Growth Graph Output
+![Graph Output](images/Contribution_By_Player_Karma.png)
+![Graph Output](images/Contribution_total_ranking.png)
+![Graph Output](images/total_dmg_per_boss_per_player.png)
+
 ## 👤 Credits
 
 Developed by: **[SusiShushii]**  
@@ -202,17 +217,3 @@ You will see:
 0) Exit
 ============================================
 
-## 🖼 Example Results
-
-### 📸 Input Screenshot (Boss Guild) & (Castle)
-![Boss Input](images/BossGuild.png)
-![Castle Input](images/Castle.png)
-
-### 📊 Excel Report Output
-![Excel Output](images/Boss_Guild_Summary.png)
-![Excel Output](images/Castle_Growth.png)
-
-### 📈 Growth Graph Output
-![Graph Output](images/Contribution_By_Player_Karma.png)
-![Graph Output](images/Contribution_total_ranking.png)
-![Graph Output](images/total_dmg_per_boss_per_player.png)

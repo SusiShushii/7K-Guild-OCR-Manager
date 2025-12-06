@@ -67,7 +67,7 @@ This project is **not affiliated with Netmarble**.
 🧰 Step 1 – Clone the Repository
 
 
-git clone https://github.com/yourname/yourrepo.git
+git clone https://github.com/SusiShushii/7K-Guild-OCR-Manager
 cd yourrepo   # e.g. cd OCR
 
 🐍 Step 2 – Install Python (Only If You Don't Have Python)

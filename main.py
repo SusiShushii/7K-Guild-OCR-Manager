@@ -1,7 +1,7 @@
 """
 7K Guild OCR Manager Tool
 Developed By: SusiShushii
-GitHub: https://github.com/SusiShushii
+GitHub: https://github.com/SusiShushii/7K-Guild-OCR-Tool
 Description:
     OCR automation tool for Boss Guild, Castle, and Growth reports.
 
@@ -21,7 +21,7 @@ from app import (
 )
 
 def run_option(opt):
-    """รันฟังก์ชันตามหมายเลขเมนู"""
+    """Run the function that corresponds to the selected menu number."""
     if opt == 1:
         print("\n🚀 Running Boss Guild OCR...\n")
         process_boss_guild()
@@ -38,12 +38,13 @@ def run_option(opt):
 
 def parse_choice(text: str):
     """
-    แปลง input เช่น:
-        1-4 → [1,2,3,4]
-        1-3 → [1,2,3]
-        1,3,4 → [1,3,4]
-        3 → [3]
-    (ไม่รองรับ input ติดกันแบบ 134)
+    Parse user input such as:
+        1-4   → [1, 2, 3, 4]
+        1-3   → [1, 2, 3]
+        1,3,4 → [1, 3, 4]
+        3     → [3]
+
+    (Does not support concatenated input like 134)
     """
     text = text.replace(" ", "")
 
@@ -78,7 +79,7 @@ def main_menu():
         print("0) Exit")
         print("============================================")
 
-        user_input = input("พิมพ์เลขที่ต้องการ รองรับตามตัวอย่าง (1-4) , (1,3,4) , (2): ").strip()
+        user_input = input("Enter your choice examples: (1-4) , (1,3,4) , (2): ").strip()
         if user_input == "0":
             print("\n👋 Bye!")
             break

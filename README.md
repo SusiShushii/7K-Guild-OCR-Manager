@@ -46,7 +46,7 @@ This project is **not affiliated with Netmarble**.
   - `run.bat` – Run the main menu
 
 ---
-
+```text
 ## 🧰 Step 1 – Clone the Repository
 
 
@@ -114,7 +114,7 @@ Main configuration file used by the OCR system (Example Configuration for Englis
 ## 🗂 Step 6 – Folder Structure (IMPORTANT)
 
 Your project MUST follow this structure:
-```text
+
 OCR/
 ├─ app/
 │  ├─ __init__.py
